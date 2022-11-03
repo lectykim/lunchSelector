@@ -15,7 +15,7 @@ function menuNums(){
         for(let i=1;i<=menuNum;i++){
             let input = document.createElement('input');
             input.setAttribute('id','id'+i);
-            input.setAttribute('class','newInput'+i);
+            input.setAttribute('class','newInput');
             input.setAttribute('type','text');
             input.setAttribute('placeholder','please input your lunch');
             parent.appendChild(input);
@@ -27,7 +27,7 @@ function menuNums(){
             for(let i=parents.length+1;i<=menuNum;i++){
                 let input = document.createElement('input');
                 input.setAttribute('id','id'+i);
-                input.setAttribute('class','newInput'+i);
+                input.setAttribute('class','newInput');
                 input.setAttribute('type','text');
                 input.setAttribute('placeholder','please input your lunch');
                 parent.appendChild(input);

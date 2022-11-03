@@ -6,13 +6,22 @@
 </head>
 <body>
     <div>
-        <h3> 점심 정하기!! </h3>
+        <h3 class="lunch-title"> 점심 정하기!! </h3>
     </div>
-    <label for="lunchName">메뉴의 수는?</label><input type="number" id="lunchName" onchange="menuNums()">
-    <ul id="lunchList">
+    <div class="menu-add">
+        <label for="lunchName" class="menu-label">메뉴의 수는?</label><input class="number-of-menu" type="number" id="lunchName" onchange="menuNums()">
+        <ul id="lunchList">
+
+        </ul>
+    </div>
+    
+    
 
     </ul>
-    <button onclick="getLunch()">Button Launch!</button>
+    <div class="menu-add">
+        <button onclick="getLunch()" class="launch-random-button">Button Launch!</button>
+    </div>
+    
     <div>
 
     </div>
