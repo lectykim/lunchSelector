@@ -36,9 +36,19 @@ ul>.newInput{
     margin:15px 15px
 }
 
+.roulette-father{
+    text-align: center;
+}
+
+.roulette-father>.roulette{
+    margin:20px 20px;
+
+}
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+
 }

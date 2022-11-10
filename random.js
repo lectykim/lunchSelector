@@ -18,6 +18,7 @@ function menuNums(){
             input.setAttribute('class','newInput');
             input.setAttribute('type','text');
             input.setAttribute('placeholder','please input your lunch');
+            input.setAttribute('onchange','checkMenu('+i+')');
             parent.appendChild(input);
         }
     }else{
@@ -38,11 +39,9 @@ function menuNums(){
             }
         }
     }
-
-    
-
-
 }
+
+
 
 function getLunch(){
     let entire = document.getElementById('lunchList');
